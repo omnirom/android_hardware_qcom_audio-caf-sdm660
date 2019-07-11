@@ -29,6 +29,7 @@
 
 #define LOG_TAG "passthru"
 /*#define LOG_NDEBUG 0*/
+#include <pthread.h>
 #include <stdlib.h>
 #include <cutils/atomic.h>
 #include <cutils/str_parms.h>
