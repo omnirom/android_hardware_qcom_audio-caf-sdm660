@@ -30,6 +30,7 @@
 /* #define LOG_NDEBUG 0 */
 #define LOG_NDDEBUG 0
 
+#include <pthread.h>
 #include <errno.h>
 #include <stdbool.h>
 #include <stdlib.h>

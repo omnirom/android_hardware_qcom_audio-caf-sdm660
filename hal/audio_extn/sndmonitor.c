@@ -43,6 +43,7 @@
 
    Callbacks are deregistered in adev_close_*_stream and adev_close
 */
+#include <pthread.h>
 #include <stdlib.h>
 #include <dirent.h>
 #include <unistd.h>
